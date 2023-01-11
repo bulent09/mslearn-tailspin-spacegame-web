@@ -7,7 +7,8 @@ trigger:
 - main
 
 pool:
-  vmImage: 'windows-latest'
+#  vmImage: 'windows-latest'
+  name: bulent_agent_pool
 
 variables:
   solution: '**/*.sln'
